@@ -8,6 +8,9 @@ https://networkx.org/documentation/stable/tutorial.html#adding-attributes-to-gra
 in this question, I check if a graph is connected and how many connected components there are,
 I did it with strategy design, the function can solve this with BFS and DFS algorithms and
 can choose the output, the function support with networkx graph, and Graph_structure class.
+
+Q3
+https://www.codingame.com/training/hard/the-labyrinth
 """
 import networkx as nx
 import doctest
