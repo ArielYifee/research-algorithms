@@ -12,7 +12,7 @@ import networkx as nx
 import random as rnd
 
 def random_graph(n):
-    p = rnd.randint(0, n)
+    p = rnd.uniform(0, 1)
     return nx.fast_gnp_random_graph(n, p)
 
 def accurate_max_clique(graph):
@@ -40,7 +40,7 @@ def draw_diff(graph_size, comparation):
 def run_test():
     graph_size = []
     comparation = []
-    for n in range(50, 1000):
+    for n in range(50, 80):
         graph_size.append(n)
         graph = random_graph(n)
         comparation.append(compare(graph))
