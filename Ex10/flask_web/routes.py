@@ -1,7 +1,7 @@
 from flask import render_template, url_for, redirect
 from flask_web import app
 from flask_web.forms import DataForm
-from live_demo1 import main
+from image_restoration.live_demo1 import main
 
 @app.route('/')
 def myhome():
